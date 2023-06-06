@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo KREYST</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+    
+    
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>KREY<b>ST</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+
+                        <li class="menu-selected"> <a href="Index.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>INICIO</a></li>
+
+                        <li class="menu-selected"> <a href="form/Registrar.php" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>REGISTRARSE</a></li>
+
+
+                        <li class="menu-selected"><a href="form/ventp.php" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>venta de productos</a></li>
+
+                            <li class="menu-selected"> <a href="form/carrito.php" class="text-menu-selected"> 
+                                <i class="fas fa-file-alt"></i>tu CARRITO</a></li>
+
+                                <li class="menu-selected"> <a href="form/Consultar.php" class="text-menu-selected"> 
+                                    <i class="fas fa-file-alt"></i>CONSULTA DE SALDOS</a></li>
+
+                                    <li class="menu-selected"> <a href="portafolio/index.html" class="text-menu-selected"> 
+                                        <i class="fas fa-file-alt"></i>A CERCA DE</a></li>
+
+
+
+
+                     
+                    </ul>
+                </nav>
+
+            </div>
+
+          
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Boton de busqueda en pruebas
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="articulo.html"><i class="fas fa-search"></i>HTML</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+    </ul>
+
+    -->
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Encuentra tu estilo unico!</h1>
+            <p>Estar más allá de la moda, ese es nuestro arquetipo de estilo.
+                <br>
+                El estilo es cuestión de instinto, sigue tu instinto.
+                <br>
+                La moda es un concepto y tú lo representas.
+            </p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="HTML" name="categories" value="HTML">
+        <input type="radio" id="CSS" name="categories" value="CSS">
+        <input type="radio" id="JS" name="categories" value="JS">
+        <input type="radio" id="PHP" name="categories" value="PHP">
+        <input type="radio" id="NODEJS" name="categories" value="NODEJS">
+        <input type="radio" id="VUE" name="categories" value="VUE">
+        <input type="radio" id="AXZZ" name="categories" value="AXZZ">
+       
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="HTML">SUDADERAS</label>
+            <label for="CSS">CAMISAS</label>
+            <label for="JS">ZAPATOS</label>
+            <label for="PHP">PANTALONES</label>
+            <label for="VUE">ACCESORIOS</label>
+            <label for="NODEJS">GORROS</label>
+            <label for="AXZZ">PROXIMAMENTE</label>
+
+            
+        </div>
+
+        <div class="posts">
+
+
+              <!--CAMISAS
+
+            <div class="post" data-category="CSS">
+
+                <div class="ctn-img">
+                    <img src="img/stock1.jpg" alt="">
+                </div>
+                <h2>CAMISA PARA HOMBRE</h2>
+                <span>Camisa de cuadros para hombre</span>
+                <ul class="ctn-tag">
+                    <li>CAMISAS</li>
+                    <li>HOMBRE</li>
+                </ul>
+                <a href="articulo.html"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="CSS">
+
+                <div class="ctn-img"><img src="img/stock5.jpg" alt=""></div>
+                <h2>CAMISA PARA TRAJE</h2>
+                <span>Camisa para traje color gris para hombre</span>
+                <ul class="ctn-tag">
+                    <li>CAMISAS</li>
+                    <li>TRAJE</li>
+                    <li>HOMBRE</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+
+
+                <div class="post" data-category="CSS">
+
+                    <div class="ctn-img"><img src="img/stock7.jpg" alt=""></div>
+                    <h2>CAMISA CAFÉ PARA TRAJE</h2>
+                    <span>Camisa para traje color café para hombre</span>
+                    <ul class="ctn-tag">
+                        <li>CAMISAS</li>
+                        <li>TRAJE</li>
+                        <li>HOMBRE</li>
+                    </ul>
+                    <a href="#"><button>VER PRODUCTO</button></a>
+    
+                </div>
+
+                -->
+
+                 <!--ACCESORIOS
+    
+            <div class="post" data-category="VUE">
+
+                <div class="ctn-img">
+                    <img src="img/stock8.jpg" alt="">
+                </div>
+                <h2>RELOJ DE CUERO</h2>
+                <span>Reloj de cuero para hombre</span>
+                <ul class="ctn-tag">
+                    <li>ACCESORIOS</li>
+                    <li>HOMBRE</li>
+                </ul>
+                <a href="articulo.html"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+-->
+
+
+                  <!--GORROS
+
+            <div class="post" data-category="NODEJS">
+
+                <div class="ctn-img">
+                    <img src="img/stock9.jpg" alt="">
+                </div>
+                <h2>SOMBRERO + GAFAS DE SOL PARA VERANO</h2>
+                <span>Sombrero de verano para mujer incluyendo gafas de sol</span>
+                <ul class="ctn-tag">
+                    <li>GORROS</li>
+                    <li>MUJER</li>
+                    <li>VERANO</li>
+                </ul>
+                <a href="articulo.html"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+
+-->
+
+
+                <!--SUDADERAS
+
+            <div class="post" data-category="HTML">
+
+                <div class="ctn-img"><img src="img/stock2.jpg" alt=""></div>
+                <h2>SUDADERA ROSA MUJER</h2>
+                <span>Sudadera rosa para mujer</span>
+                <ul class="ctn-tag">
+                    <li>SUDADERAS</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+
+            -->
+
+             <!--ZAPATOS
+
+            <div class="post" data-category="JS">
+
+                <div class="ctn-img"><img src="img/stock3.jpg" alt=""></div>
+                <h2>ZAPATO ESTILO BOTA</h2>
+                <span>Zapato estilo bota unisex</span>
+                <ul class="ctn-tag">
+                    <li>ZAPATOS</li>
+                    <li>UNISEX</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="JS">
+
+                <div class="ctn-img"><img src="img/stock4.jpg" alt=""></div>
+                <h2>ZAPATO CONVERSE MUJER</h2>
+                <span>Zapato converse para mujer</span>
+                <ul class="ctn-tag">
+                    <li>ZAPATOS</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+           -->
+
+            <!--PANTALONES-->
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.08 PM (1).jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #1</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.08 PM.jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #2</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.09 PM (1).jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #3</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.09 PM (2).jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #4</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.09 PM (3).jpeg" alt=""></div>
+                <h2>SHORT ELITE</h2>
+                <span>CODIGO: #5</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.09 PM (4).jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #6</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.09 PM.jpeg" alt=""></div>
+                <h2>PANTALONES MUJER</h2>
+                <span>CODIGO: #7</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM (1).jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #8</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM (2).jpeg" alt=""></div>
+                <h2>SHORT ELITE</h2>
+                <span>CODIGO: #9</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM (3).jpeg" alt=""></div>
+                <h2>SHORT ELITE</h2>
+                <span>CODIGO: #10</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM (4).jpeg" alt=""></div>
+                <h2>SHORT ELITE</h2>
+                <span>CODIGO: #11</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM.jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #12</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.11 PM (1).jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #13</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.11 PM (2).jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #14</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.11 PM (3).jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #15</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.11 PM.jpeg" alt=""></div>
+                <h2>SHORT ELITE</h2>
+                <span>CODIGO: #16</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.12 PM (1).jpeg" alt=""></div>
+                <h2>BIKER ELITE</h2>
+                <span>CODIGO: #17</span>
+                <ul class="ctn-tag">
+                    <li>BIKER</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.13 PM (1).jpeg" alt=""></div>
+                <h2>PANTALON MUJER NEGRO</h2>
+                <span>CODIGO: #18</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.13 PM (2).jpeg" alt=""></div>
+                <h2>PANTALON MUJER</h2>
+                <span>CODIGO: #19</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.13 PM (3).jpeg" alt=""></div>
+                <h2>PANTALON MUJER</h2>
+                <span>CODIGO: #20</span>
+                <ul class="ctn-tag">
+                    <li>PANTALONES</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+            
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="catalogo/WhatsApp Image 2023-04-16 at 3.49.10 PM.jpeg" alt=""></div>
+                <h2>SHORT MUJER</h2>
+                <span>CODIGO: #21</span>
+                <ul class="ctn-tag">
+                    <li>SHORT</li>
+                    <li>MUJER</li>
+                </ul>
+                <a href="#"><button>VER PRODUCTO</button></a>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+             <!--NUEVOS-->
+
+             <div class="post" data-category="AXZZ">
+
+                <div class="ctn-img">
+                    <img src="img/cm.jpg" alt="">
+                </div>
+                <h2>PROXIMAMENTE</h2>
+                <span>PROXIMAMENTE</span>
+                <ul class="ctn-tag">
+                    <li>PROXIMAMENTE</li>
+                    
+                </ul>
+                <a href="articulo.html"><button>PROXIMAMENTE</button></a>
+
+            </div>
+
+
+           
+
+            
+
+        </div>
+
+    </div>
+
+    <!--Boton de ir hacia arriba-->
+    <div id="button-up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+
+
+    <div class="container-footer">	
+
+        <footer>
+            <hr>
+            <br>
+            <div class="logo-footer">
+                <img src="img/LOGOVX.png" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>© 2020 KREYST - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/btnirarriba.js"></script>
+</body>
+</html>
